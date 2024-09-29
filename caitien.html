@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Thay đổi đường dẫn nếu cần -->
+</head>
+<body>
+    <div class="container">
+        <h1>Book Store</h1>
+        
+        <!-- Thanh tìm kiếm -->
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm sách...">
+            <button>Tìm kiếm</button>
+        </div>
+
+        <h2>Add New Book</h2>
+
+        <div class="book-item">
+            <img src="path_to_your_image/book1.jpg" alt="Book Title" class="book-image">
+            <div class="book-details">
+                <div class="book-title">Title of Book 1</div>
+                <div class="book-author">Author Name</div>
+                <div class="book-price">$19.99</div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="book-item">
+            <img src="path_to_your_image/book2.jpg" alt="Book Title" class="book-image">
+            <div class="book-details">
+                <div class="book-title">Title of Book 2</div>
+                <div class="book-author">Author Name</div>
+                <div class="book-price">$24.99</div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="success-message">
+            Book added successfully!
+        </div>
+
+        <div class="pagination">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </div>
+
+        <!-- Phần thanh toán -->
+        <div class="payment-section">
+            <h2>Thanh Toán</h2>
+            <form class="payment-form">
+                <label for="name">Họ Tên:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="address">Địa Chỉ:</label>
+                <input type="text" id="address" required>
+
+                <label for="card">Số Thẻ:</label>
+                <input type="text" id="card" required>
+
+                <button type="submit" class="submit-payment">Xác Nhận Thanh Toán</button>
+            </form>
+        </div>
+
+        <!-- Phần chăm sóc khách hàng -->
+        <div class="customer-service">
+            <h2>Chăm Sóc Khách Hàng</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ với chúng tôi qua email: support@bookstore.com</p>
+            <p>Hotline: 123-456-7890</p>
+        </div>
+    </div>
+</body>
+</html>
